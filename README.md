@@ -50,7 +50,7 @@ $ npm install zoompinch
   <template #matrix="{ composePoint }">
     <svg xmlns="http://www.w3.org/2000/svg" @click="handleClickOnLayer">
       <!-- This circle will stick to the center of the canvas -->
-      <circle :cx="composePoint(0.5, 0.5)[0]" :cx="composePoint(0.5, 0.5)[1]" r="5" style="fill: #f00;" />
+      <circle :cx="composePoint(0.5, 0.5)[0]" :cy="composePoint(0.5, 0.5)[1]" r="5" style="fill: #f00;" />
     </svg>
   </template>
 </zoompinch>
